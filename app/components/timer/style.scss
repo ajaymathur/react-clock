@@ -1,0 +1,26 @@
+span{
+  color: #00F;
+}
+.timer {
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-content: space-around;
+  align-items: flex-start;
+}
+.timer-unit {
+  font-size: 200px;
+  transform: translateY(-200px);
+  padding: 0;
+}
+.to-animate {
+  -webkit-transition: transform 400ms linear;
+  -moz-transition: transform 400ms linear;
+  -ms-transition: transform 400ms linear;
+  -o-transition: transform 400ms linear;
+  transition: transform 400ms linear;
+
+}
+.animate {
+  transform: translateY(0);
+}

@@ -1,0 +1,38 @@
+{
+  "name": "react-clock",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:watch": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaymathur/react-clock.git"
+  },
+  "author": "Ajay Narain Mathur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajaymathur/react-clock/issues"
+  },
+  "homepage": "https://github.com/ajaymathur/react-clock#readme",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "node-sass": "^4.5.2",
+    "react-hot-loader": "next",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
