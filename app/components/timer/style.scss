@@ -10,8 +10,13 @@ span{
 }
 .timer-unit {
   font-size: 200px;
-  transform: translateY(-200px);
+  transform: translateY(-230px);
   padding: 0;
+}
+
+.time-sepertor {
+  font-size: 200px;
+  
 }
 .to-animate {
   -webkit-transition: transform 400ms linear;
@@ -23,4 +28,8 @@ span{
 }
 .animate {
   transform: translateY(0);
+}
+
+li{
+  list-style: none;
 }
